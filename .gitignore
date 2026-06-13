@@ -1,0 +1,73 @@
+# Gitignore for QB-FistControl
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Temporary Files
+*.tmp
+*.log
+temp/
+tmp/
+
+# System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# FiveM Specific
+artifacts/
+cache/
+builds/
+
+# Git
+.git/
+.gitignore
+
+# Package Managers
+node_modules/
+package-lock.json
+yarn.lock
+
+# Test Results
+test-results/
+coverage/
+
+# Build Output
+dist/
+build/
+out/
+
+# Environment Files
+.env
+.env.local
+.env.*.local
+
+# OS Specific
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+$RECYCLE.BIN/
+
+# IDE Artifacts
+*.code-workspace
+.classpath
+.project
+.c9/
+*.launch
+.settings/
+
+# Node
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
